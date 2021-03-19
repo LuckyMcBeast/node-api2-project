@@ -20,10 +20,10 @@ There are two possible ways to submit your project. Your instructor should have 
 
 #### Option B - Pull Request
 
-- [ ] Fork and clone the repository.
-- [ ] Implement your project in a `firstname-lastname` branch.
-- [ ] Create a pull request of `firstname-lastname` against your `main` branch.
-- [ ] Open the assignment in Canvas and submit your pull request.
+- [x] Fork and clone the repository.
+- [x] Implement your project in a `firstname-lastname` branch.
+- [x] Create a pull request of `firstname-lastname` against your `main` branch.
+- [x] Open the assignment in Canvas and submit your pull request.
 
 ### Task 2: Minimum Viable Product
 
@@ -40,13 +40,13 @@ There are two possible ways to submit your project. Your instructor should have 
 | 5 | DELETE | /api/posts/:id          | Removes the post with the specified id and returns the **deleted post object**                                                           |
 | 6 | GET    | /api/posts/:id/comments | Returns an **array of all the comment objects** associated with the post with the specified id                                           |
 
-#### 1 [GET] /api/posts
+#### 1 [GET] /api/posts DONE
 
 - If there's an error in retrieving the _posts_ from the database:
   - respond with HTTP status code `500`.
   - return the following JSON: `{ message: "The posts information could not be retrieved" }`.
 
-#### 2 [GET] /api/posts/:id
+#### 2 [GET] /api/posts/:id DONE
 
 - If the _post_ with the specified `id` is not found:
 
